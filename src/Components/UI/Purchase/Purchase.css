@@ -1,0 +1,230 @@
+.purchase-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.contacts-date-items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contacts-date-item-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contacts-date-item-name {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.contacts-date-item-form-name,
+.contacts-date-item-form-number {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(179, 179, 179);
+    color: rgb(179, 179, 179);
+    padding: 10px;
+    outline: none;
+}
+
+.contacts-date-item-form-name:active,
+.contacts-date-item-form-number:active {
+    border-color: black;
+    color: black;
+}
+
+.contacts-date-item-form-name:focus,
+.contacts-date-item-form-number:focus {
+    border-color: black;
+    color: black;
+}
+
+.contacts-date-item-form-btn {
+    height: 50px;
+    width: 30%;
+    border: none;
+    background-color: rgb(37, 182, 37);
+    color: white;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+}
+
+.delivery-date-item-name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.delivery-date-item-form-name,
+.delivery-date-item-form-surname-one,
+.delivery-date-item-form-surname-two,
+.delivery-date-item-form-select {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(179, 179, 179);
+    color: rgb(179, 179, 179);
+    padding: 10px;
+    outline: none;
+}
+
+.delivery-date-item-form-name:active,
+.delivery-date-item-form-surname-one:active,
+.delivery-date-item-form-surname-two:active,
+.delivery-date-item-form-select:active {
+    border-color: black;
+    color: black;
+}
+
+.delivery-date-item-form-name:focus,
+.delivery-date-item-form-surname-one:focus,
+.delivery-date-item-form-surname-two:focus,
+.delivery-date-item-form-select:focus {
+    border-color: black;
+    color: black;
+}
+
+.delivery-date-items {
+    width: 100%;
+}
+
+.delivery-date-item-form {
+    margin-top: 20px;
+}
+
+.payment-date-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.payment-date-item span {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.payment-date-items {
+    width: 100%;
+}
+
+.payment-date-item-name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.payment-date-item input {
+    width: 20px;
+}
+
+.contacts-datails-items {
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.purchase-product-details-items {
+    width: 30%;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.purchase-product-details-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.purchase-product-details-item-name {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.purchase-product-details-item-counter {
+    font-weight: 20px;
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.purchase-product-details-item-button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: rgb(26, 188, 26);
+    color: white;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.purchase-product-details-item-btn {
+    margin-top: 20px;
+}
+
+.purchase-product-details-item-price {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.purchase-product-details-item-images {
+    width: 100%;
+}
+
+.purchase-product-details-item-price__summa {
+    font-weight: 700;
+}
+
+@media (max-width : 1080px) {
+    .purchase-wrapper {
+        flex-direction: column;
+    }
+
+    .contacts-datails-items {
+        width: 100%;
+    }
+
+    .purchase-product-details-items {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .purchase-product-details-item-images {
+        width: 20%;
+    }
+
+    .purchase-product-details-item-counter {
+        width: 100%;
+    }
+}
+
+@media (max-width : 390px) {
+
+    .contacts-date-item-name,
+    .delivery-date-item-name,
+    .payment-date-item-name {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,37 @@
+.FilterProduct {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-item {
+    cursor: pointer;
+    background: rgba(0, 198, 94, 1);
+
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all .5s ease;
+    color: white;
+    font-weight: 500;
+    transition: all .4s ease;
+}
+
+.category-item:hover {
+    background-color: rgb(122, 122, 122);
+}
+
+@media (max-width: 1500px) {
+
+    .FilterProduct {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .category-item {
+        margin-bottom: 10px;
+    }
+
+
+}

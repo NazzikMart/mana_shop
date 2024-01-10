@@ -1,0 +1,231 @@
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.besket {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(37, 187, 137); */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.profile {
+    /* margin-right: 10px; */
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(206, 221, 35); */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.fa-user,
+.fa-basket-shopping {
+    font-size: 25px;
+}
+
+.besket a {
+    color: white;
+}
+
+.fa-basket-shopping:hover {
+    color: greenyellow;
+}
+
+.profile a {
+    color: white;
+}
+
+.profile a:hover {
+    color: rgb(223, 56, 56);
+}
+
+.padding {
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+.color-blue {
+    background: rgba(0, 198, 94, 1);
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.logo-items {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+}
+
+.search {
+    width: 700px;
+    margin-left: 30px;
+    height: 50px;
+}
+
+.product-catalog-btn {
+    height: 50px;
+    width: 300px;
+    border: none;
+    background: rgba(0, 198, 94, 1);
+
+    color: white;
+    font-weight: 600;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: all .4s ease;
+    text-decoration: none;
+}
+
+.product-catalog-btn:active {
+
+    outline: none;
+}
+
+.product-catalog-btn:focus {
+
+    outline: none;
+}
+
+.product-catalog-btn:hover {
+    background-color: rgb(122, 122, 122);
+    color: white;
+    text-decoration: none;
+}
+
+.product-remont-btn {
+    height: 50px;
+    width: 300px;
+    border: none;
+    background: rgba(0, 198, 94, 1);
+
+    color: white;
+    font-weight: 600;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: all .4s ease;
+    text-decoration: none;
+}
+
+.product-remont-btn:hover {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-decoration: none;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list-group-item span {
+    margin-left: 10px;
+}
+
+.logo-item__navbar {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.logo-item__navbar:hover {
+    text-decoration: none;
+}
+
+.profile-link,
+.besket-link {
+    font-weight: 600;
+
+}
+
+.profile-link:hover,
+.besket-link:hover {
+    text-decoration: none;
+    color: rgb(212, 79, 79);
+}
+
+.account-link {
+    display: "flex";
+    flex-direction: "row";
+    align-items: "center";
+    justify-content: "flex-start";
+    color: "rgba(0, 198, 94, 1)";
+    margin-right: "15px";
+
+}
+
+.profile-link {
+    color: "rgba(0, 198, 94, 1)",
+}
+
+.besket-link {}
+
+@media (max-width : 420px) {
+    .logo-item__navbar {
+        font-size: 20px;
+    }
+
+    .color-blue {
+        font-size: 20px;
+    }
+
+    .navbar-btn {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .buttons-navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .padding {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.logo-img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-link {
+    color: red;
+}

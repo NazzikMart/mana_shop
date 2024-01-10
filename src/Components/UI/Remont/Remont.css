@@ -1,0 +1,155 @@
+.remont {
+    width: 100%;
+    padding: 40px;
+}
+
+header {
+    background: rgba(0, 198, 94, 1);
+
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.repair-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.repair-service {
+    background: rgba(0, 198, 94, 1);
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    padding: 30px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.repair-service:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.contact-form-remont {
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin-bottom: 100px; */
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:hover,
+textarea:hover {
+    border: 2px solid rgba(0, 198, 94, 1);
+    color: rgba(0, 198, 94, 1);
+}
+
+input:active,
+textarea:active {
+    border: 2px solid rgba(0, 198, 94, 1);
+    color: rgba(0, 198, 94, 1);
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid rgba(0, 198, 94, 1);
+    color: rgba(0, 198, 94, 1);
+}
+
+
+
+.contact-form-remont button {
+    background: rgba(0, 198, 94, 1);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.contact-form-remont button:hover {
+    transform: translate(1.09);
+}
+
+.contact-form-remont button:focus {
+    transform: translate(1.09);
+}
+
+.contact-form-remont button:active {
+    transform: translate(1.09);
+}
+
+
+.remont-name {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.repair-icons {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .repair-services {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .repair-service {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width : 650px) {
+    .repair-service-name {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .repair-service h3,
+    .repair-service p,
+    .repair-service i {
+        font-size: 15px;
+    }
+}

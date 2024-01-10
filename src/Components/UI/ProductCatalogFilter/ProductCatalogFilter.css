@@ -1,0 +1,23 @@
+.search-input-filterproduct {
+    border: 2px solid rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
+    outline: none;
+}
+
+.search-input-filterproduct:hover {
+    border: 2px solid rgba(0, 198, 94, 1);
+    color: rgba(0, 198, 94, 1);
+    outline: none;
+}
+
+.search-input-filterproduct:active {
+    border: 2px solid rgba(0, 198, 94, 1);
+    color: rgba(0, 198, 94, 1);
+    outline: none;
+}
+
+.search-input-filterproduct:focus {
+    border: 2px solid rgba(0, 198, 94, 1);
+    color: rgba(0, 198, 94, 1);
+    outline: none;
+}

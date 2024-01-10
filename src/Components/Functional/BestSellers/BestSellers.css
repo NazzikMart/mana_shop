@@ -1,0 +1,165 @@
+.BestSellers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+
+
+.BestSellersName {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.BestCard {
+    padding: 20px;
+    width: 300px;
+    border: 1px solid rgb(222, 222, 222);
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cardItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-card {
+    width: 90%;
+}
+
+.item-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.item-model {
+    color: rgb(96, 96, 223);
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.fa-star {
+    font-size: 12px;
+    color: rgb(217, 217, 217);
+}
+
+.heart {
+    margin-top: 10px;
+}
+
+.prices {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-price {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.item-availability {
+    background-color: rgb(130, 255, 163);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.item-besket-btn {
+    width: 50%;
+    height: 50px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 198, 94, 1);
+
+    color: white;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.item-besket-btn:hover {
+    background: rgb(2, 154, 73);
+
+}
+
+.item-shop-btn {
+    width: 50%;
+    height: 50px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 2px solid rgba(0, 198, 94, 1);
+
+    color: rgba(0, 198, 94, 1);
+
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.item-shop-btn:hover {
+    background: rgba(0, 198, 94, 1);
+    color: white;
+    border: none;
+}
+
+.fa-cart-shopping {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 1500px) {
+    .BestSellers {
+        flex-direction: row;
+    }
+
+    .BestCard {
+        width: 100%;
+
+    }
+
+    .cardItems {
+        width: 100%;
+    }
+
+    .img-card {
+        width: 80%;
+        /* height: 100%; */
+    }
+}

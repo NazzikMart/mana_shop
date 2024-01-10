@@ -1,0 +1,193 @@
+.user-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 40px;
+}
+
+.user-left-menu {
+    width: 30%;
+}
+
+.user-information {
+    width: 70%;
+}
+
+.user-informatio-header__images {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.user-informatio-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-informatio-header__img {
+    width: 30%;
+}
+
+.user-informatio-header__name {
+    width: 70%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.user-information-info-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.user-information-info-items__item {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.user-information-info-item__name {
+    margin-bottom: 20px;
+}
+
+.user-information-info-item__name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.user-information-info-item__number-name,
+.user-information-info-item__sex-name,
+.user-information-info-item__birthday-name,
+.user-information-info-item__email-name {
+    font-weight: 500;
+}
+
+.user-information-info-item__number-desc,
+.user-information-info-item__sex-desc,
+.user-information-info-item__birthday-desc,
+.user-information-info-item__email-desc {
+    margin-left: 10px;
+}
+
+.list-group-item__user {
+    background-color: rgb(245, 245, 245);
+    transition: all .3s ease;
+}
+
+.list-group-item__user:hover {
+    background-color: rgb(246, 87, 87);
+    color: white;
+}
+
+.list-group-item__user:hover {
+    background-color: rgb(246, 87, 87);
+    color: white;
+}
+
+.user-information-details-items {
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.user-information-details-item__hobby-name,
+.user-information-details-item__car-name {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.user-information-details-item__hobby,
+.user-information-details-item__car {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-information-details-item__hobby-desc,
+.user-information-details-item__car-desc {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.user-information-details-item__hobby-btn,
+.user-information-details-item__car-btn {
+    height: 40px;
+    border: 2px solid gray;
+    background-color: transparent;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: all, .3s ease;
+}
+
+.user-information-details-item__car {
+    margin-top: 20px;
+}
+
+
+.user-information-details-item__hobby-btn:hover,
+.user-information-details-item__car-btn:hover {
+    background-color: rgb(246, 87, 87);
+    color: white;
+    border: 2px solid rgb(246, 87, 87);
+}
+
+.list-group-item__user-btn-logout {
+    background-color: rgb(246, 87, 87);
+    color: white;
+    font-weight: 800;
+}
+
+.list-group-item__user-btn-logout:hover {
+    background-color: rgb(143, 143, 143);
+}
+
+.link-user {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.link-user:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 860px) {
+    .user-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .user-left-menu {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 70px;
+    }
+
+    .left-menu-items {
+        width: 100%;
+    }
+
+    .list-group-users {
+        width: 100%;
+    }
+
+    .user-information {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .user-wrapper {
+        font-size: 10px;
+    }
+}
